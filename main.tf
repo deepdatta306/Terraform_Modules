@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "deep.in.k8s"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
 
